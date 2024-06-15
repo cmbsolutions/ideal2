@@ -22,5 +22,4 @@ class DerConverter
 
         return base64_decode($pemContent);
     }
-
 }

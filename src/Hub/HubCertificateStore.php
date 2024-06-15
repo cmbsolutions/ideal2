@@ -14,7 +14,7 @@ use POM\iDEAL\Exceptions\IDEALException;
 use Psr\SimpleCache\CacheInterface;
 use Psr\SimpleCache\InvalidArgumentException;
 
-readonly class HubCertificateStore
+class HubCertificateStore
 {
     /**
      * @throws IDEALException

@@ -11,7 +11,7 @@ use POM\iDEAL\Hub\Requests\TransactionStatusRequest;
 use POM\iDEAL\Hub\Resources\AccessToken;
 use stdClass;
 
-readonly final class iDEAL
+final class iDEAL
 {
     /**
      * @var HubCertificateStore

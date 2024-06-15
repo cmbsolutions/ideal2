@@ -15,7 +15,7 @@ use POM\iDEAL\Helpers\Encode;
 use POM\iDEAL\Hub\iDEAL;
 use POM\iDEAL\Hub\Resources\AccessToken;
 
-readonly class AccessTokenRequest
+class AccessTokenRequest
 {
     public function __construct(private iDEAL $iDEAL)
     {

@@ -5,7 +5,7 @@ namespace POM\iDEAL\Hub\Resources;
 use DateTime;
 use POM\iDEAL\Hub\TransactionStatus;
 
-readonly class Transaction
+class Transaction
 {
     public function __construct(
         private string $transactionId,

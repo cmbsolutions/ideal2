@@ -7,7 +7,7 @@ use OpenSSLCertificate;
 use POM\iDEAL\Banks\BankInterface;
 use Psr\SimpleCache\CacheInterface;
 
-readonly class Config
+class Config
 {
     private string $hubBaseUrl;
     private string $cachePrefix;
@@ -16,13 +16,13 @@ readonly class Config
      * @param string $merchantId
      * @param bool $testMode
      * @param BankInterface $bank
-     * @param string $INGmTLSCertificatePath
-     * @param string $INGmTLSKeyPath
-     * @param string $INGmTLSPassPhrase
-     * @param OpenSSLAsymmetricKey|OpenSSLCertificate|string $INGSigningKey
-     * @param string $INGSigningPassphrase
-     * @param string $INGSigningCertificate The signing certificate for requests to the ING API in PEM format
-     * @param string $hubmTLSCertificatePath
+     * @param string $INGmTLSCertificatePath The Path including the filename to the ING mTLS certificate
+     * @param string $INGmTLSKeyPath The Path including the filename to the ING mTLS key
+     * @param string $INGmTLSPassPhrase The passphrase for ING mTLS key
+     * @param OpenSSLAsymmetricKey|OpenSSLCertificate|string $INGSigningKey The full content of the ING Signing key file in PEM format
+     * @param string $INGSigningPassphrase The passphrase for ING signing key
+     * @param string $INGSigningCertificate The full content of the ING signing certificate in PEM format
+     * @param string $hubmTLSCertificatePath The Path including the filename to the Hub mTLS certificate, this is NOT the certificate you created, it is the verified one you need to download from the portal
      * @param string $hubmTLSKeyPath
      * @param string $hubmTLSPassphrase
      * @param OpenSSLAsymmetricKey|OpenSSLCertificate|string $hubSigningKey

@@ -4,7 +4,7 @@ namespace POM\iDEAL\Hub\Resources;
 
 use DateInterval;
 
-readonly class AccessToken
+class AccessToken
 {
     public function __construct(
         private string $token,

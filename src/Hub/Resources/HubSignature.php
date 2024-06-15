@@ -11,7 +11,7 @@ use OpenSSLCertificate;
 use POM\iDEAL\Exceptions\IDEALException;
 use POM\iDEAL\Hub\SigningAlgorithm;
 
-readonly class HubSignature
+class HubSignature
 {
     /**
      * @var array
