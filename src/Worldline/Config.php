@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline;
+namespace CMB\iDEAL\Worldline;
 
-use POM\iDEAL\Banks\BankInterface;
+use CMB\iDEAL\Banks\BankInterface;
 use Psr\SimpleCache\CacheInterface;
 
 class Config

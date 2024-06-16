@@ -1,6 +1,6 @@
 <?php
 
-namespace POM\iDEAL\Exceptions;
+namespace CMB\iDEAL\Exceptions;
 
 use Exception;
 

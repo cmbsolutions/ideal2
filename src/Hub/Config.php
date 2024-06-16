@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub;
+namespace CMB\iDEAL\Hub;
 
 use OpenSSLAsymmetricKey;
 use OpenSSLCertificate;
-use POM\iDEAL\Banks\BankInterface;
+use CMB\iDEAL\Banks\BankInterface;
 use Psr\SimpleCache\CacheInterface;
 
 class Config

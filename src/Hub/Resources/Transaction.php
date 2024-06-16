@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub\Resources;
+namespace CMB\iDEAL\Hub\Resources;
 
 use DateTime;
-use POM\iDEAL\Hub\TransactionStatus;
+use CMB\iDEAL\Hub\TransactionStatus;
 
 class Transaction
 {

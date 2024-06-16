@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub;
+namespace CMB\iDEAL\Hub;
 
 use Exception;
 use Firebase\JWT\JWT;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Hub\Requests\AccessTokenRequest;
-use POM\iDEAL\Hub\Requests\TransactionRequest;
-use POM\iDEAL\Hub\Requests\TransactionStatusRequest;
-use POM\iDEAL\Hub\Resources\AccessToken;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Hub\Requests\AccessTokenRequest;
+use CMB\iDEAL\Hub\Requests\TransactionRequest;
+use CMB\iDEAL\Hub\Requests\TransactionStatusRequest;
+use CMB\iDEAL\Hub\Resources\AccessToken;
 use stdClass;
 
 final class iDEAL

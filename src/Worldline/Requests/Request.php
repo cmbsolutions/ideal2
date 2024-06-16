@@ -1,14 +1,14 @@
 <?php
 
-namespace POM\iDEAL\Worldline\Requests;
+namespace CMB\iDEAL\Worldline\Requests;
 
 use DateTime;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\GuzzleException;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Worldline\iDEAL;
-use POM\iDEAL\Worldline\Resources\RequestSignature;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Worldline\iDEAL;
+use CMB\iDEAL\Worldline\Resources\RequestSignature;
 use Ramsey\Uuid\Uuid;
 
 class Request

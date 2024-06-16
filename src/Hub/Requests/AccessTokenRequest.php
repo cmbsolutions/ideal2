@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub\Requests;
+namespace CMB\iDEAL\Hub\Requests;
 
 use DateInterval;
 use Exception;
@@ -9,11 +9,11 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Helpers\DerConverter;
-use POM\iDEAL\Helpers\Encode;
-use POM\iDEAL\Hub\iDEAL;
-use POM\iDEAL\Hub\Resources\AccessToken;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Helpers\DerConverter;
+use CMB\iDEAL\Helpers\Encode;
+use CMB\iDEAL\Hub\iDEAL;
+use CMB\iDEAL\Hub\Resources\AccessToken;
 
 class AccessTokenRequest
 {

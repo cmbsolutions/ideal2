@@ -28,7 +28,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "POM\\iDEAL\\": "src"
+            "CMB\\iDEAL\\": "src"
         }
     },
     "require": {

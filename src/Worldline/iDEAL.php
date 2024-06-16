@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline;
+namespace CMB\iDEAL\Worldline;
 
 use DateInterval;
 use DateTime;
 use Exception;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Worldline\Requests\AccessTokenRequest;
-use POM\iDEAL\Worldline\Requests\TransactionRequest;
-use POM\iDEAL\Worldline\Requests\TransactionStatusRequest;
-use POM\iDEAL\Worldline\Resources\AccessToken;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Worldline\Requests\AccessTokenRequest;
+use CMB\iDEAL\Worldline\Requests\TransactionRequest;
+use CMB\iDEAL\Worldline\Requests\TransactionStatusRequest;
+use CMB\iDEAL\Worldline\Resources\AccessToken;
 
 class iDEAL
 {

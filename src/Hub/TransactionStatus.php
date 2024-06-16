@@ -1,6 +1,6 @@
 <?php
 
-namespace POM\iDEAL\Hub;
+namespace CMB\iDEAL\Hub;
 
 enum TransactionStatus: string
 {

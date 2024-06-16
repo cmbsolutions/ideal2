@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline\Requests;
+namespace CMB\iDEAL\Worldline\Requests;
 
 use DateInterval;
 use DateTime;
@@ -8,10 +8,10 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Worldline\iDEAL;
-use POM\iDEAL\Worldline\Resources\AccessSignature;
-use POM\iDEAL\Worldline\Resources\AccessToken;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Worldline\iDEAL;
+use CMB\iDEAL\Worldline\Resources\AccessSignature;
+use CMB\iDEAL\Worldline\Resources\AccessToken;
 
 class AccessTokenRequest
 {

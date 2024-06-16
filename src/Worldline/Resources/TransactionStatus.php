@@ -30,7 +30,7 @@
 //  "UseWaitingScreen": false
 //}
 
-namespace POM\iDEAL\Worldline\Resources;
+namespace CMB\iDEAL\Worldline\Resources;
 
 class TransactionStatus
 {

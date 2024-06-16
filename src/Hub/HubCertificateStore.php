@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub;
+namespace CMB\iDEAL\Hub;
 
 use DateInterval;
 use DateTimeImmutable;
@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
-use POM\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Exceptions\IDEALException;
 use Psr\SimpleCache\CacheInterface;
 use Psr\SimpleCache\InvalidArgumentException;
 

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Banks;
+namespace CMB\iDEAL\Banks;
 
 final class ABN extends BankBase implements BankInterface
 {

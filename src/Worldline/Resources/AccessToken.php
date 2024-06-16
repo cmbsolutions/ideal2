@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline\Resources;
+namespace CMB\iDEAL\Worldline\Resources;
 
 use DateInterval;
 class AccessToken

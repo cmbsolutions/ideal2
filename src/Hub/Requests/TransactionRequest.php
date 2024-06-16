@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub\Requests;
+namespace CMB\iDEAL\Hub\Requests;
 
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Hub\Resources\Transaction;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Hub\Resources\Transaction;
 
 final class TransactionRequest extends Request
 {

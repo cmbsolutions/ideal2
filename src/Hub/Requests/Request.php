@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub\Requests;
+namespace CMB\iDEAL\Hub\Requests;
 
 use Exception;
 use Firebase\JWT\JWT;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\GuzzleException;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Helpers\DerConverter;
-use POM\iDEAL\Hub\iDEAL;
-use POM\iDEAL\Hub\Resources\HubSignature;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Helpers\DerConverter;
+use CMB\iDEAL\Hub\iDEAL;
+use CMB\iDEAL\Hub\Resources\HubSignature;
 use Ramsey\Uuid\Uuid;
 
 class Request

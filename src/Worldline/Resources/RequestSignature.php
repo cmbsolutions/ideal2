@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline\Resources;
+namespace CMB\iDEAL\Worldline\Resources;
 
 use DateTime;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Worldline\iDEAL;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Worldline\iDEAL;
 
 class RequestSignature
 {

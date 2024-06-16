@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Helpers;
+namespace CMB\iDEAL\Helpers;
 
 class Encode
 {

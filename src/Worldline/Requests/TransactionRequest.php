@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Worldline\Requests;
+namespace CMB\iDEAL\Worldline\Requests;
 
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Worldline\Resources\Transaction;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Worldline\Resources\Transaction;
 
 class TransactionRequest extends Request
 {

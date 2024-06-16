@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub;
+namespace CMB\iDEAL\Hub;
 
 enum SigningAlgorithm: string
 {

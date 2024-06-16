@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace POM\iDEAL\Hub\Resources;
+namespace CMB\iDEAL\Hub\Resources;
 
 use DateTime;
 use DateTimeZone;
@@ -8,8 +8,8 @@ use Exception;
 use Firebase\JWT\JWT;
 use OpenSSLAsymmetricKey;
 use OpenSSLCertificate;
-use POM\iDEAL\Exceptions\IDEALException;
-use POM\iDEAL\Hub\SigningAlgorithm;
+use CMB\iDEAL\Exceptions\IDEALException;
+use CMB\iDEAL\Hub\SigningAlgorithm;
 
 class HubSignature
 {
