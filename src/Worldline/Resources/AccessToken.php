@@ -3,7 +3,7 @@
 namespace POM\iDEAL\Worldline\Resources;
 
 use DateInterval;
-readonly class AccessToken
+class AccessToken
 {
     /**
      * @param string $token

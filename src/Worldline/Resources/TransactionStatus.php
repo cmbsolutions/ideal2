@@ -32,7 +32,7 @@
 
 namespace POM\iDEAL\Worldline\Resources;
 
-readonly class TransactionStatus
+class TransactionStatus
 {
 
     public function __construct(

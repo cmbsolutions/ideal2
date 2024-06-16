@@ -11,7 +11,7 @@ use POM\iDEAL\Worldline\Requests\TransactionRequest;
 use POM\iDEAL\Worldline\Requests\TransactionStatusRequest;
 use POM\iDEAL\Worldline\Resources\AccessToken;
 
-readonly class iDEAL
+class iDEAL
 {
 
     private AccessToken $accessToken;

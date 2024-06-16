@@ -13,7 +13,7 @@ use POM\iDEAL\Worldline\iDEAL;
 use POM\iDEAL\Worldline\Resources\AccessSignature;
 use POM\iDEAL\Worldline\Resources\AccessToken;
 
-readonly class AccessTokenRequest
+class AccessTokenRequest
 {
     /**
      * @param iDEAL $iDEAL

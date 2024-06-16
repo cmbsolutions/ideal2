@@ -5,7 +5,7 @@ namespace POM\iDEAL\Worldline;
 use POM\iDEAL\Banks\BankInterface;
 use Psr\SimpleCache\CacheInterface;
 
-readonly class Config
+class Config
 {
 
     private string $cachePrefix;
